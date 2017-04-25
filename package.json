@@ -1,0 +1,19 @@
+{
+  "name": "promises_intro",
+  "version": "1.0.0",
+  "description": "Show the usefulness of promises",
+  "main": "promise_v_callback.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "fs-promise": "^2.0.2",
+    "promise": "^7.1.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
+    "underscore": "^1.8.3",
+    "yargs": "^7.1.0"
+  }
+}

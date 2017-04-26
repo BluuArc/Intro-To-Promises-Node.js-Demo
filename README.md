@@ -9,6 +9,7 @@ This repo contains the code accompanied with [a quick presentation on promises](
 ## How to Run
 1. Download/clone the contents of the repo onto your system.
 2. Open up a terminal window and have it point to this new directory.
+3. Type in `npm install` to install the dependencies necessary
 3. Run it with one of the commands below
     * `node readFileDemo.js -h` - Print list of possible commands
     * `node readFileDemo.js -c` - Run the callback test

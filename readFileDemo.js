@@ -26,6 +26,7 @@ function open_file(file,callbackFn){
     });
 }
 
+
 var files = ["sample1.txt","sample2.txt","sample3.txt","sample4.txt","sample5.txt"];
 
 function print_string_array(data){
@@ -37,7 +38,9 @@ function print_string_array(data){
     console.log("End print_string_array()\n---");
 }
 
-//load an array of files - callback style
+// goal: load files asynchronously, store their data into an array, and 
+// process that array (in this case, by printing the array)
+// load an array of files - callback style
 function callback_files_test(){
     var results = [];
     for(var f in files){

@@ -42,6 +42,7 @@ function print_string_array(data){
 // process that array (in this case, by printing the array)
 // load an array of files - callback style
 function callback_files_test(){
+    console.log("Running callback_files_test()");
     var results = [];
     for(var f in files){
         //queue up all the file calls
@@ -75,6 +76,7 @@ function open_file_promisified(file) {
 
 //load an array of files - promise style
 function promise_files_test(){
+    console.log("Running promise_files_test()");
     var promises = [];
     for(var f in files){
         //queue up all the file calls
